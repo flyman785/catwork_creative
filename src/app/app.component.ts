@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import {NgOptimizedImage} from '@angular/common';
 
 @Component({
   standalone: true,
-  imports: [RouterModule, NgOptimizedImage],
+  imports: [RouterModule],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
