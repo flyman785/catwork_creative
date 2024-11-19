@@ -23,13 +23,15 @@
             "input": "public"
           }
         ],
-        "styles": ["./src/styles.scss"],
-        "scripts": [],
+        "styles": [
+          "./src/styles.scss",
+          "node_modules/bootstrap/dist/css/bootstrap.min.css"
+        ],
+        "scripts": [
+        ],
         "server": "src/main.server.ts",
-        "prerender": true,
-        "ssr": {
-          "entry": "server.ts"
-        }
+        "prerender": false,
+        "ssr": false
       },
       "configurations": {
         "production": {
