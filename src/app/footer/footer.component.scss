@@ -15,6 +15,11 @@
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+
+  > img {
+    height: auto;
+    max-width: 50%;
+  }
 }
 
 #footer .footer-top .footer-info h3 {
